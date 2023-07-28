@@ -23,11 +23,11 @@ export default function Nav(){
                             Offerings
                         </Link>
                     </li>
-                    <li className="flex items-center text-xl relative cursor-pointer">
+                    <button className="flex items-center text-xl relative cursor-pointer border-slate-700 hover:bg-slate-700 focus:outline-none rounded-full border py-2 px-4">
                         <Link href={'/pages/contact'}>
                             Contact Us
                         </Link>
-                    </li>
+                    </button>
                 </ul>
         </nav>
     )
