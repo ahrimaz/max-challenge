@@ -14,17 +14,17 @@ export default function Nav(){
                         </Link>
                     </li>
                     <li className="flex items-center text-xl relative cursor-pointer">
-                        <Link href='/pages/about'>
+                        <Link href='/about'>
                             About Us
                         </Link>
                     </li>
                     <li className="flex items-center text-xl relative cursor-pointer">
-                        <Link href={'/pages/offerings'}>
+                        <Link href={'/offerings'}>
                             Offerings
                         </Link>
                     </li>
                     <button className="flex items-center text-xl relative cursor-pointer border-slate-700 hover:bg-slate-700 focus:outline-none rounded-full border py-2 px-4">
-                        <Link href={'/pages/contact'}>
+                        <Link href={'/contact'}>
                             Contact Us
                         </Link>
                     </button>
